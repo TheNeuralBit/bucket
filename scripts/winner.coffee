@@ -5,3 +5,6 @@ module.exports = (robot) ->
 
   robot.hear /winner/i, (msg) ->
     msg.send "https://play.spotify.com/track/53RmnO2xlpRzDu5OIOdVMZ"
+  
+  robot.hear /winning/i, (msg) ->
+    msg.send "https://play.spotify.com/track/53RmnO2xlpRzDu5OIOdVMZ"

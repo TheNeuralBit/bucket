@@ -4,4 +4,4 @@
 module.exports = (robot) ->
   
   robot.hear /\bdo i\b/i, (msg) ->
-    msg.send "https://www.youtube.com/watch?v=C4HJ0zfZ-EM?t=52"
+    msg.send "https://www.youtube.com/watch?v=C4HJ0zfZ-EM&t=52"

@@ -3,5 +3,5 @@
 #
 module.exports = (robot) ->
   
-  robot.hear /do i\b/i, (msg) ->
+  robot.hear /\bdo i\b/i, (msg) ->
     msg.send "https://www.youtube.com/watch?v=C4HJ0zfZ-EM?t=52"

@@ -30,5 +30,5 @@ module.exports = (robot) ->
 ## Common memes
   robot.hear /success_kid\.jpe?g/i, (msg) ->
     msg.send "https://i.kym-cdn.com/photos/images/original/000/185/885/SANDCASTLES.png"
-  robot.hear /not_badl\.jpe?g/i, (msg) ->
+  robot.hear /not_bad\.jpe?g/i, (msg) ->
     msg.send "https://i.kym-cdn.com/photos/images/original/000/138/246/tumblr_lltzgnHi5F1qzib3wo1_400.jpg"

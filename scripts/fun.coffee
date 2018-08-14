@@ -32,3 +32,5 @@ module.exports = (robot) ->
     msg.send "https://i.kym-cdn.com/photos/images/original/000/185/885/SANDCASTLES.png"
   robot.hear /not_bad\.jpe?g/i, (msg) ->
     msg.send "https://i.kym-cdn.com/photos/images/original/000/138/246/tumblr_lltzgnHi5F1qzib3wo1_400.jpg"
+  robot.hear /not sure if/i, (msg) ->
+    msg.send "https://i.kym-cdn.com/entries/icons/original/000/006/026/NOTSUREIF.jpg"
